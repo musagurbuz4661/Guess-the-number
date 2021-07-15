@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    
+}
+
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:15px ;
+  
+    text-align: center;
+    background-image: linear-gradient(yellow , white);
+    
+}
+.image{
+     padding-top:3rem;
+}
+#userInput{
+    margin-top: 15px;
+    padding: 10px;
+    width: 300px;
+    border-radius:0 10px  0 10px;
+
+
+}
+#checkbutton{
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+#checkbutton:hover{
+    background-color: white;
+    color: black;
+}
